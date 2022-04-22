@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(17, 16, 16);
+}   
+.carousel-inner:hover{
+    animation:portada 6s
+}
+@keyframes portada{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.04);
+    }
+}
