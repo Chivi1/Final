@@ -1,9 +1,19 @@
 .iframe{
-        iframe{
+        .twitter-tweet{
             display: flex;
             justify-content: center;
             margin: auto;
             overflow: hidden;
             margin-top: 25px;
         }
-    }
+        iframe{
+            @extend .twitter-tweet;
+            width: 100%;
+            display: flex;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+}
+
+
+
